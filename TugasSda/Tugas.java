@@ -4,11 +4,12 @@ public class Tugas{
 
     public static void main(String[] args){
         // Soal Nomor 1 (is Empty)
-        String nama =  "A";
-        String nama1 = "F";
-        String nama2 = "I";
-        String nama3 = "T";
-        System.out.println(nama1.isEmpty());
+       String[] nama =  {"A","F","I","T"};
+        
+        System.out.println(nama[0].isEmpty());
+        System.out.println(nama[1].isEmpty());
+        System.out.println(nama[2].isEmpty());
+        System.out.println(nama[3].isEmpty());
 
         // Soal Nomor 2 (SIZE)
         ArrayList<String> nama = new ArrayList<String>();
